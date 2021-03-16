@@ -1,14 +1,20 @@
 * {
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #006400;
+    color: white;
 }
 
 header {
-    margin: 0;
-    padding: 10px;
-    background-color: #294628;
-    border-bottom: solid #1C2F1B 3px;
-    box-shadow: 0px 0px 10px #294628;
+    margin: auto;
+    padding: 20px;
+    background-color: transparent;
+    border: inset black;
+    border-style: solid 10px;
+    border-bottom: solid 5px black;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 50px;
+    width: 650px;
 }
 
 nav {
@@ -21,28 +27,36 @@ nav li {
 }
 
 h1 {
-    color: #5A9857;
+    color:  #006400;
     font-weight: bold;
     text-align: center;
+    color: white;
 }
 
 a {
     text-decoration: none;
-    color: #5A9857;
+    color: white;
+
 }
 
 .gps {
     margin: auto;
     width: 295px;
-    padding: 20px;
+    height: 90px;
+    padding: 1px;
     text-align: center;
+    background-color: transparent;
+    border: inset black;
+    border-style: solid 10px;
+    border-bottom: solid 5px black;
+    box-shadow: 5px 5px 5px black;
 }
 
 .coord {
-    display: inline;
-    float: left;
-    margin: 2px;
+    margin: 0;
+    padding: 5px;
     position: relative;
+     border-radius: 25px;
 }
 
 .mapBox {
@@ -52,5 +66,28 @@ a {
 }
 
 .map {
+    width: 613px;
+    margin: 0;
+    padding: 10px;
+    background-color: #006400;
+    border: outset black;
+    border-bottom: solid 5px black;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 25px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    background-color: #006400;
+    border: inset black;
+    border-bottom: solid 5px black;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 25px;
     width: 613px;
 }
